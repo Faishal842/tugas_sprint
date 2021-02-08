@@ -1,0 +1,85 @@
+<body>
+    <script>
+        //HARUS ADA KOMA
+        //CARA MENULISKAN SYNTAX OBJEK LITERAL
+        // var mobil = {
+        //     merek: 'avanza',
+        //     berat: 950,
+        //     warna: 'hitam',
+        //     gas: function () {
+        //         return 'mobil melaju';
+        //     },
+        //     rem: function () {
+        //         return 'mobil berhenti';
+        //                 },
+
+        // }
+        // document.write(mobil.gas())
+
+//OBJEK HANYHA BISA TAMPIL DI CONSOLE
+//MENULIS FUNCTION DECLARATION
+// function siswa (nama, usia){
+//     var anak = {}
+//     anak.nama = nama,
+//     anak.usia = usia
+//     return anak
+// }
+// console.log(siswa('faishal', 18));
+
+//menulis dengan keyword new
+// var siswa = new Object ()
+// siswa.nama = 'dudung';
+// siswa.usia = 18;
+
+// console.log(siswa.nama)
+// console.log(siswa.usia)
+
+//mutabler
+// var siswa = { nama:'Hafif' , usia: 19 }
+// var x = siswa 
+// x.nama = 'Rifqi'
+
+// console.log ( siswa )
+
+//fungsi2 manipulasi pada objek
+//Object.assign untuk menyalin dari 1objek ke objek lain
+
+// const murid={a:'dio',b:'dia',c:'die'};
+// const siswa={c:'bie',d:'bia'};
+
+// const muridsiswa = Object.assign(murid,siswa);
+
+// console.log(murid)
+// console.log(siswa)
+// console.log(muridsiswa)
+
+//yg dibelakang disalin kedepan.jika ada yg sama yg ditampilkan properti yg dibelakang
+
+//membuat objek baru
+
+// var siswa = {
+//   muslim: false,
+//   perkenalan: function () {
+//     console.log('Nama saya' +' '+ this.nama +'. '+'Apakah saya muslim ? ' + this.muslim);
+//   }
+// };
+
+// var saya = Object.create(siswa);//var yg lama
+
+// saya.nama = "Faishal"
+// saya.muslim = true
+// saya.perkenalan();
+
+
+var siswa = {
+  muslim : false,
+  perkenalan: function () {
+    console.log(
+      'nama saya' + this.nama +'apakah saya seorang muslim ? '+ this.muslim)
+    ;
+  }
+};
+var santri = Object.create(siswa);
+(santri.nama = 'Faishal'), (santri.muslim = true), santri.perkenalan();
+    </script>
+</body>

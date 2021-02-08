@@ -1,0 +1,156 @@
+
+
+
+<body>
+ 
+    <script>
+    //   //  menulis array
+    //     var siswa= ['adi','ani','afi']
+    //     document.write(siswa[1])
+
+    //   //  mengganti array
+    //     var makanan= ['sate ayam','gulai','bakso','mi ayam'];
+    //     makanan[1]='ramen';
+    //     document.write(makanan[1])
+
+    // //    menulis array dg new
+    //     var siswa= new Array['adi','ani','afi']
+    //     document.write(siswa[1])
+
+//     jika ingin memanggil var di dlam objek gunakan .
+//             var makanan= ['sate ayam','gulai','bakso','mi ayam', ['faishal', 'komar'],{nama:"faishal", jk:"laki-laki"}]
+//             document.write(makanan[5].jk)
+//         array dalam array/MULTI DIMENSI
+        //var makanan= ['sate ayam','gulai','bakso','mi ayam',['faishal','aku']];
+        //document.write(makanan[4][0])
+        
+       //array multi dimensi INGAT HARUS PAKAI KOMA!!!!
+        // var siswa= [['siswa','absen'],
+        //     ['adi',2],
+        //     ['abi',1],
+        //     ['ani',3],
+        // ] 
+        // document.write(siswa[1][0]+' ', siswa[2][0]+' ', siswa[3][0])
+
+                               // METHOD
+
+// manipulasi pda array
+// emngubah array menjadi string
+// var hewan=['rusa','gajah','singa','badak']
+// document.write(hewan.toString())
+
+// // menggabungkan array
+// var hewan=['rusa','gajah','singa','badak']
+// document.write(hewan.join(' '))
+
+// // menambah elemen dibelakang
+// var hewan=['rusa','gajah','singa','badak']
+// hewan.push('zebra')
+// document.write(hewan)
+
+// //menghapus element array
+// var hewan=['rusa','gajah','singa','badak']
+// hewan.pop()
+// document.write(hewan)
+
+// //menambah elemen didepan
+// var hewan=['rusa','gajah','singa','badak']
+// hewan.unshift('kijang')
+// document.write(hewan)
+
+// //mengapus elemen didepan
+// var hewan=['rusa','gajah','singa','badak']
+// hewan.shift('kijang')
+// document.write(hewan)
+
+//menambah
+// var hewan=['rusa','gajah','singa','badak']
+// hewan.splice(3,0,'kijang')
+// document.write(hewan)
+
+// mengurangi
+// var hewan=['rusa','gajah','singa','badak']
+// hewan.splice(3,0,'kijang')
+// document.write(hewan)
+
+//menggabungkan 2 array
+// var  reactNative =['Hafif , Dayat, Wandi,'];
+// var  reactJS     =['Yusuf, Luthfi, Tompel'];
+//       var JavaScriptDivison =reactNative.concat(reactJS);
+//       document.write(JavaScriptDivison)
+
+//mengeluarkan elemen didalam array
+// var hewan=['rusa','gajah','singa','badak']
+// var mahluk=hewan.slice(0,3);
+// document.write(mahluk)
+//kenapa yg ditulis sampai 3 cuma sampai singa?karena sistemnya <
+
+//median
+// var nilai= [50,100,98,67,45,90,89,77];
+// var total= 0;
+
+// for(i= 0; i< nilai.length; i++){
+// total += nilai [i];
+// }
+
+// document.write(total / nilai.length)
+ 
+//LIST
+// var hewan=['rusa','gajah','singa','badak']
+// for (i= 0; i <hewan.length; i++){
+//     document.write('<li>' + hewan[i] + '</i>')
+// }
+
+        // var listDesaBantulA = [
+        //     ['Argodadi, Sedayu, Bantul'],
+        //     ['Argomulyo, Sedayu, Bantul'],
+        //     ['Argorejo, Sedayu, Bantul'],
+        //     ['Argosari, Sedayu, Bantul']
+        // ]
+        // document.write ("List Desa Bantul A")
+        // document.write ("<li>" + listDesaBantulA[0] + "</li>")
+        // document.write ("<li>" + listDesaBantulA[1] + "</li>")
+        // document.write ("<li>" + listDesaBantulA[2] + "</li>")
+        // document.write ("<li>" + listDesaBantulA[3] + "</li>")
+        // document.write ("<br><br>")
+
+        // var listDesaBantulB = [
+        //         ['Bangunjiwo, Kasihan, Bantul'],
+        //         ['Banguntapan, Banguntapan, Bantul'],
+        //         ['Bantul, Bantul, Bantul'],
+        //         ['Baturetno, Banguntapan, Bantul'],
+        //         ['Bawuran, Pleret, Bantul']
+        //     ]
+        //     document.write ("List Desa Bantul B")
+        // document.write ("<li>" + listDesaBantulB[0] + "</li>")
+        // document.write ("<li>" + listDesaBantulB[1] + "</li>")
+        // document.write ("<li>" + listDesaBantulB[2] + "</li>")
+        // document.write ("<li>" + listDesaBantulB[3] + "</li>")
+        // document.write ("<li>" + listDesaBantulB[4] + "</li>")
+        // document.write ("<br><br>")
+
+        // var listDesaBantulC = [
+        //         ['Canden, Jetis, Bantul'],
+        //         ['Caturharjo, Pandak, Bantul'],
+        //         ['Cetan Srigading']
+        //     ]
+        //     document.write ("List Desa Bantul C")
+        // document.write ("<li>" + listDesaBantulC[0] + "</li>")
+        // document.write ("<li>" + listDesaBantulC[1] + "</li>")
+        // document.write ("<li>" + listDesaBantulC[2] + "</li>")
+        // document.write ("<br><br>")
+
+
+        //list penomoran
+        // var santriPondok = ['Wandi','Aldi','Acep','Putra','Hafif','Syofyan',"Rahmad"]
+        //         for (i = 0; i <santriPondok.length; i++){
+        //             document.write((i+1) +'.'+ santriPondok[i] +'<br>')
+        //         }cd
+
+        //
+    </script>
+    </script>
+</body>
+</html>
+</script>
+</body>

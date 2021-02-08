@@ -1,0 +1,45 @@
+PROGRAM LuasLingkaran
+{Progam untuk menghitung luas lingkaran}
+
+DEKLARASI
+Jari_Jari:int
+Phi:3.14
+hasil:float
+
+ALGORITMA
+luas=phi * jari_jari * jari_jari
+hasil = phi * jari_jari * jari_jari
+
+write(hasil)
+
+end
+ 
+Hitung Luas(untuk menghitung luas lingkaran)
+DEKLARASI
+r,L
+DESKRIPSI
+Read
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var r =
+vaar L
+if(r !=0){
+    L = 3.14 * r * r
+    document.write(L)
+}else{
+    document.write
+}
+
