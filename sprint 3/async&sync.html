@@ -1,0 +1,36 @@
+<body>
+    <script>
+
+        //ASYNC
+
+        // console.log('hi');
+        // setTimeout(()=> {
+        //     console.log('java');
+        // },1000);
+
+        // console.log('hello');
+
+        // function siswa(nama,umur,asal){
+        //     console.log(nama,umur);
+        //     asal ()
+        // }
+
+        // function asal() {
+        //     console.log('Jatim');
+
+        // }
+
+        // siswa('Edi', 28 , asal )
+
+        function newCallback(adi,yusuf,pulang){
+            console.log(adi, yusuf);
+            pulang ()
+
+        }
+        function pulang () {
+            console.log('Pulang'+' '+'Kampung')
+        }
+        newCallback('adi', 'yusuf', pulang)
+
+    </script>
+</body>
