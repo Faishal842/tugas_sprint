@@ -1,0 +1,17 @@
+<body>
+    <script>
+
+var randomNumbers = [90,99,78,73,80,60,96,67,55,86,80,81,81,73,77,71,90,87,85,23,52,87,78,96,80,68]
+
+var chaining = randomNumbers
+.filter (i => i >=65)
+.map (i => i / 2)
+.filter (i => i <40)
+.map (i => randomNumbers.length / i)
+.reduce((a,b) => (a / 2 ) + b)
+
+console.log(chaining)
+
+
+    </script>
+</body>
